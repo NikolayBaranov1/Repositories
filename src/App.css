@@ -1,0 +1,58 @@
+body{
+  background:-webkit-linear-gradient(180deg, #6101c3 0%, #01a1c3 100%);
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000;
+}
+
+.App-title{
+  color: #fff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.div_links{
+  margin-top: 30px;
+}
+.links{
+  color: #fff;
+  font-size: 20px;
+}
+.links:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.input_search{
+  margin-bottom: 40px;
+}
+.h6_id{
+  font-size: 10px;
+}
+.repos_link{
+  font-size: 20px;
+  color: #000;
+}
+.repos_link:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
